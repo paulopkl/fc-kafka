@@ -1,0 +1,19 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "create-topic": "node ./criar-topico/index.js",
+    "servicebus:create-topic": "node ./service-bus/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/arm-servicebus": "^6.1.0",
+    "@azure/identity": "^4.4.0",
+    "@azure/service-bus": "^7.9.5",
+    "kafkajs": "^2.2.4"
+  }
+}

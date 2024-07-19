@@ -1,0 +1,6 @@
+
+/opt/kafka/bin/kafka-console-producer.sh
+
+kafka-console-producer.sh \
+    --topic my-topic \
+    --broker-list localhost:9092
